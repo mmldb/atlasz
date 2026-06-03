@@ -27,6 +27,9 @@ button { font: inherit; }
 .status-approved { background: rgba(34, 197, 94, 0.18); color: #86efac; }
 .status-needs_more_source { background: rgba(245, 158, 11, 0.18); color: #fcd34d; }
 .status-rejected { background: rgba(239, 68, 68, 0.18); color: #fecaca; }
+.status-candidate_for_atlas { background: rgba(14, 165, 233, 0.18); color: #7dd3fc; }
+.status-draft { background: rgba(168, 85, 247, 0.18); color: #d8b4fe; }
+.status-background_concept_only { background: rgba(148, 163, 184, 0.16); color: #cbd5e1; }
 .source-details { margin-top: 10px; color: #cbd5e1; }
 .source-details summary { cursor: pointer; color: #7dd3fc; }
 .source-details a { color: #7dd3fc; overflow-wrap: anywhere; }
@@ -38,6 +41,13 @@ blockquote { margin: 10px 0; padding: 10px 12px; border-left: 3px solid #38bdf8;
 .has-local-decision { border-color: rgba(34, 197, 94, 0.45); }
 .decision-note { margin: 4px 0 0; color: #cbd5e1; font-size: 12px; line-height: 1.4; }
 .review-help { margin: 14px 0 0; padding: 12px; border-radius: 12px; background: rgba(14, 165, 233, 0.1); }
+.candidate-list { margin-top: 18px; display: grid; gap: 12px; }
+.candidate-list h3, .fields h3 { margin: 0; }
+.candidate-card { padding: 12px; border-radius: 14px; background: rgba(30, 41, 59, 0.72); border: 1px solid rgba(125, 211, 252, 0.18); }
+.background-card { border-color: rgba(148, 163, 184, 0.12); opacity: 0.88; }
+.candidate-question { color: #cbd5e1; line-height: 1.4; }
+.review-message-box { display: grid; gap: 8px; margin-top: 8px; }
+.review-message-box textarea { width: 100%; border-radius: 10px; border: 1px solid rgba(148, 163, 184, 0.3); padding: 10px; background: rgba(2, 6, 23, 0.82); color: #e5edf8; font: 12px/1.4 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
 .review-list { margin-top: 18px; }
 .review-item { border-top: 1px solid rgba(148, 163, 184, 0.16); padding: 12px 0; }
 .review-item p { color: #cbd5e1; }

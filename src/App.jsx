@@ -42,6 +42,7 @@ export default function App() {
         <ReviewPanel
           region={selectedRegion}
           activeLayer={activeLayer}
+          extractions={extractionsData.extractions}
           extractionsById={extractionsById}
           sourcesById={sourcesById}
           reviewItems={reviewData.review_items}
