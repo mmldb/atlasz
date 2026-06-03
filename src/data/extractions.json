@@ -284,8 +284,14 @@
         "time_period": "20. század eleji leírások"
       },
       "confidence": "high",
-      "needs_review": true,
-      "status": "candidate_for_atlas"
+      "needs_review": false,
+      "status": "approved",
+      "human_review": {
+        "decision": "approved",
+        "review_item_id": "review-mek-palocfold-house-layout-001",
+        "reviewer_status": "user_approved_via_telegram",
+        "note": "ATLASZ REVIEW approved message received from Tamas; promoted to atlas-data."
+      }
     },
     {
       "id": "extract-mek-sarkoz-nadfal-nadhaz-001",

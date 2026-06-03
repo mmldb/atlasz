@@ -39,15 +39,48 @@
             "value": null,
             "source_extraction_ids": [],
             "verification_status": "unverified_empty_seed"
+          },
+          "house_layout": {
+            "value": [
+              "ház",
+              "pitvar",
+              "komra",
+              "estálló"
+            ],
+            "time_period": "20. század eleji leírások",
+            "source_extraction_ids": [
+              "extract-mek-palocfold-house-layout-001"
+            ],
+            "verification_status": "approved",
+            "notes": [
+              "Felhasználói jóváhagyás alapján átemelve a MEK / Magyar Néprajz IV. extractionből.",
+              "Az idézetben szereplő forma: estálló."
+            ]
+          },
+          "local_terms": {
+            "value": [
+              "ház",
+              "pitvar",
+              "komra",
+              "estálló"
+            ],
+            "source_extraction_ids": [
+              "extract-mek-palocfold-house-layout-001"
+            ],
+            "verification_status": "approved",
+            "notes": [
+              "A palóc ház helyiségnevei a jóváhagyott house_layout extractionből."
+            ]
           }
         },
         "costume_female": {},
         "costume_male": {},
         "metadata": {
           "contributor_status": "official",
-          "verification_status": "partial_pending_review",
+          "verification_status": "partial_approved_with_pending_review",
           "source_ids": [
-            "mednyanszky-magyar-nepi-epiteszeti-kisszotar-20191217"
+            "mednyanszky-magyar-nepi-epiteszeti-kisszotar-20191217",
+            "magyar-neprajz-iv-anyagi-kultura-epiteszet-mek"
           ]
         }
       }

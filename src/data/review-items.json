@@ -43,10 +43,13 @@
       "id": "review-mek-palocfold-house-layout-001",
       "question": "Elfogadjuk-e Palócföld architecture.house_layout adatként a ház–pitvar–komra–estálló leírást?",
       "evidence_extraction_id": "extract-mek-palocfold-house-layout-001",
-      "recommended_decision": "approve_if_source_quote_and_region_scope_ok",
+      "recommended_decision": "approved",
       "notes": [
-        "MEK / Magyar Néprajz IV. forrásból kinyert, explicit tájegység-említést tartalmazó draft. Atlasz-adatként emberi review után kerüljön át approved státuszba."
-      ]
+        "MEK / Magyar Néprajz IV. forrásból kinyert, explicit tájegység-említést tartalmazó draft. Atlasz-adatként emberi review után kerüljön át approved státuszba.",
+        "Approved by Tamas via ATLASZ REVIEW message; extracted value promoted to atlas-data.json."
+      ],
+      "decision": "approved",
+      "decision_channel": "telegram"
     },
     {
       "id": "review-mek-sarkoz-nadfal-001",
