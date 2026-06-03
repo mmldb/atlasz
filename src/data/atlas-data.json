@@ -1,0 +1,144 @@
+{
+  "schema_version": "0.1.0",
+  "project_id": "digital-karpat-medencei-neprajzi-atlasz",
+  "regions": [
+    {
+      "id": "palocfold",
+      "name": "Palócföld",
+      "coordinates": {
+        "lat": null,
+        "lng": null,
+        "coordinate_note": "Pilot seed; pontos pozíció később."
+      },
+      "layers": {
+        "architecture": {
+          "wall_material": {
+            "value": [
+              "mórfal",
+              "vályogtéglából rakott fal"
+            ],
+            "source_extraction_ids": [
+              "extract-mednyanszky-palocfold-morfal-001"
+            ],
+            "verification_status": "pending_human_review",
+            "notes": [
+              "Ez az egyetlen mostani pilot adat, amely explicit módon Palócföldhöz kötött a feldolgozott forrásban."
+            ]
+          },
+          "roof_form": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          },
+          "fence_type": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          },
+          "characteristic_decoration": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          }
+        },
+        "costume_female": {},
+        "costume_male": {},
+        "metadata": {
+          "contributor_status": "official",
+          "verification_status": "partial_pending_review",
+          "source_ids": [
+            "mednyanszky-magyar-nepi-epiteszeti-kisszotar-20191217"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sarkoz",
+      "name": "Sárköz",
+      "coordinates": {
+        "lat": null,
+        "lng": null,
+        "coordinate_note": "Pilot seed; pontos pozíció később."
+      },
+      "layers": {
+        "architecture": {
+          "wall_material": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          },
+          "roof_form": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          },
+          "fence_type": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          },
+          "characteristic_decoration": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          }
+        },
+        "costume_female": {},
+        "costume_male": {},
+        "metadata": {
+          "contributor_status": "official",
+          "verification_status": "unverified_empty_seed",
+          "source_ids": []
+        }
+      }
+    },
+    {
+      "id": "kalotaszeg",
+      "name": "Kalotaszeg",
+      "coordinates": {
+        "lat": null,
+        "lng": null,
+        "coordinate_note": "Pilot seed; pontos pozíció később."
+      },
+      "layers": {
+        "architecture": {
+          "wall_material": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          },
+          "roof_form": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          },
+          "fence_type": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          },
+          "characteristic_decoration": {
+            "value": null,
+            "source_extraction_ids": [],
+            "verification_status": "unverified_empty_seed"
+          }
+        },
+        "costume_female": {},
+        "costume_male": {},
+        "metadata": {
+          "contributor_status": "official",
+          "verification_status": "unverified_empty_seed",
+          "source_ids": []
+        }
+      }
+    }
+  ],
+  "background_concepts": [
+    "extract-mednyanszky-paticsfal-general-001",
+    "extract-mednyanszky-rakott-sarfal-general-001",
+    "extract-mednyanszky-valyog-general-001",
+    "extract-mednyanszky-vert-fal-general-001",
+    "extract-mednyanszky-nad-tetofedes-general-001",
+    "extract-mednyanszky-zsup-tetofedes-general-001"
+  ]
+}

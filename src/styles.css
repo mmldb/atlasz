@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #101826; color: #e5edf8; }
+button { font: inherit; }
+.app-shell { display: grid; grid-template-columns: minmax(360px, 460px) 1fr; height: 100vh; overflow: hidden; }
+.sidebar { display: flex; flex-direction: column; gap: 18px; height: 100vh; padding: 26px; overflow: auto; background: linear-gradient(180deg, #101826 0%, #172033 100%); border-right: 1px solid rgba(148, 163, 184, 0.2); }
+.brand-block h1 { margin: 4px 0 10px; font-size: 28px; line-height: 1.08; }
+.subtitle, .muted { color: #9fb0c7; line-height: 1.45; }
+.small { font-size: 12px; }
+.eyebrow { margin: 0; color: #7dd3fc; text-transform: uppercase; font-size: 12px; letter-spacing: 0.12em; font-weight: 800; }
+.card { background: rgba(15, 23, 42, 0.78); border: 1px solid rgba(148, 163, 184, 0.22); border-radius: 18px; padding: 18px; box-shadow: 0 20px 60px rgba(0,0,0,0.22); }
+.card h2 { margin: 0 0 12px; }
+.segmented-control { display: grid; gap: 8px; }
+.segmented-control button, .review-actions button { border: 1px solid rgba(125, 211, 252, 0.25); color: #dff7ff; background: rgba(14, 165, 233, 0.12); padding: 10px 12px; border-radius: 12px; cursor: pointer; }
+.segmented-control button.active { background: #0ea5e9; color: #04111f; font-weight: 800; }
+.map-section { min-height: 100vh; position: relative; }
+.atlas-map { height: 100vh; width: 100%; background: #dbeafe; }
+.atlas-marker { width: 22px; height: 22px; border-radius: 999px; background: var(--marker-color); border: 3px solid white; box-shadow: 0 0 0 5px color-mix(in srgb, var(--marker-color) 30%, transparent), 0 8px 24px rgba(15,23,42,0.35); }
+.atlas-marker.is-selected { width: 28px; height: 28px; transform: translate(-3px, -3px); box-shadow: 0 0 0 7px color-mix(in srgb, var(--marker-color) 36%, transparent), 0 12px 30px rgba(15,23,42,0.45); }
+.fields { display: grid; gap: 12px; }
+.field-row { padding: 12px; border-radius: 14px; background: rgba(30, 41, 59, 0.62); border: 1px solid rgba(148, 163, 184, 0.14); }
+.field-header { display: flex; justify-content: space-between; gap: 12px; align-items: center; font-weight: 800; }
+.field-value { margin: 8px 0; color: #f8fafc; }
+.status-pill { display: inline-flex; align-items: center; border-radius: 999px; padding: 4px 8px; font-size: 11px; background: rgba(148, 163, 184, 0.18); color: #cbd5e1; }
+.status-pending_human_review { background: rgba(245, 158, 11, 0.18); color: #fcd34d; }
+.status-unverified_empty_seed { background: rgba(148, 163, 184, 0.16); color: #cbd5e1; }
+.source-details { margin-top: 10px; color: #cbd5e1; }
+.source-details summary { cursor: pointer; color: #7dd3fc; }
+blockquote { margin: 10px 0; padding: 10px 12px; border-left: 3px solid #38bdf8; background: rgba(2, 132, 199, 0.12); color: #e0f2fe; }
+.review-actions { display: grid; grid-template-columns: 1fr; gap: 8px; margin-top: 14px; }
+.review-actions .secondary { background: rgba(148, 163, 184, 0.14); color: #e2e8f0; }
+.review-actions .danger { background: rgba(239, 68, 68, 0.15); color: #fecaca; border-color: rgba(239, 68, 68, 0.3); }
+.review-list { margin-top: 18px; }
+.review-item { border-top: 1px solid rgba(148, 163, 184, 0.16); padding: 12px 0; }
+.review-item p { color: #cbd5e1; }
+.review-item span { color: #86efac; font-size: 12px; }
+.empty-state { padding: 16px; background: rgba(148, 163, 184, 0.12); border-radius: 12px; color: #cbd5e1; }
+@media (max-width: 900px) { .app-shell { grid-template-columns: 1fr; } .atlas-map { height: 62vh; } .map-section { min-height: auto; } }

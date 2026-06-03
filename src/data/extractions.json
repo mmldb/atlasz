@@ -1,0 +1,175 @@
+{
+  "schema_version": "0.1.0",
+  "extractions": [
+    {
+      "id": "extract-mednyanszky-palocfold-morfal-001",
+      "source_id": "mednyanszky-magyar-nepi-epiteszeti-kisszotar-20191217",
+      "region_candidates": [
+        "palocfold"
+      ],
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "wall_material"
+      ],
+      "source_locator": {
+        "pdf_page_label": "25",
+        "text_lines": [
+          1004,
+          1006
+        ]
+      },
+      "quote": "mórfal 1. a kiégetettlen szárított téglából készült fal megnevezése a Kisalföldön\n\nmórfal 2. a vályogtéglából rakott fal megnevezése a Palócföldön",
+      "paraphrase": "A 'mórfal' terminus a Palócföldön vályogtéglából rakott falat jelöl.",
+      "proposed_value": "mórfal: vályogtéglából rakott fal",
+      "confidence": "high",
+      "needs_review": true,
+      "status": "draft"
+    },
+    {
+      "id": "extract-mednyanszky-paticsfal-general-001",
+      "source_id": "mednyanszky-magyar-nepi-epiteszeti-kisszotar-20191217",
+      "region_candidates": [],
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "wall_material"
+      ],
+      "source_locator": {
+        "pdf_page_label": "29",
+        "text_lines": [
+          1150,
+          1156
+        ]
+      },
+      "quote": "patics, paticsfal  Más néven sövényfal. Függőleges oszlopok közé állított karók közé font vékonyabb, sárral betapasztott falszerkezet. A hazai népi építészet egyik legkorábbi és legelterjedtebb falépítési módja. [...] Az ország minden részében ismert, változatos elnevezésekkel (pacsit, patics, sövény, tapasztott fal). egyes helyeken az ilyen falakat nevezik fecskefalnak",
+      "paraphrase": "A paticsfal/sövényfal általánosan ismert falépítési mód, de ebben az idézetben nincs konkrét Palócföld/Sárköz/Kalotaszeg kötés.",
+      "proposed_value": "paticsfal / sövényfal: sárral betapasztott font falszerkezet",
+      "confidence": "medium",
+      "needs_review": true,
+      "status": "background_concept_only"
+    },
+    {
+      "id": "extract-mednyanszky-rakott-sarfal-general-001",
+      "source_id": "mednyanszky-magyar-nepi-epiteszeti-kisszotar-20191217",
+      "region_candidates": [],
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "wall_material"
+      ],
+      "source_locator": {
+        "pdf_page_label": "30",
+        "text_lines": [
+          1217,
+          1224
+        ]
+      },
+      "quote": "agyag, szálas adalék (szalma) és víz keverékéből épített homogén fal, melyet szabadon, oldalsó megtámasztás (lásd: →vert fal, →tömésfal) nélkül építenek. [...] rakott sárfal zsaluzat, kaloda nélkül rakott földfal. Építése szakaszosan történik. Jellemzője, hogy felül keskenyebb, mint az alsó harmadában",
+      "paraphrase": "A rakott sárfal zsaluzat nélküli földfal-technika; ebben az idézetben nincs konkrét tájegységkötés.",
+      "proposed_value": "rakott sárfal: zsaluzat nélküli földfal",
+      "confidence": "medium",
+      "needs_review": true,
+      "status": "background_concept_only"
+    },
+    {
+      "id": "extract-mednyanszky-valyog-general-001",
+      "source_id": "mednyanszky-magyar-nepi-epiteszeti-kisszotar-20191217",
+      "region_candidates": [],
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "wall_material"
+      ],
+      "source_locator": {
+        "pdf_page_label": "37",
+        "text_lines": [
+          1503,
+          1518
+        ]
+      },
+      "quote": "a vályogtégla készítéséhez használt keverék, szálas anyaggal esetleg homokkal kevert föld, agyag [...] a vályogtéglafal megnevezése, de sok helyen a rakott falat, tömésfalat, vertfalat is így nevezik [...] agyagból, szálas adalékból, víz hozzáadásával készült tégla. Hazánkban a török idők után terjedt el használata. [...] a vályogtégla készítése. A bekevert anyagot formába öntik, kézzel tömörítik, majd a napon szárítják.",
+      "paraphrase": "A forrás elkülöníti a vályog anyagát, a vályogtéglafalat, a vályogtéglát és a vályogvetést; tájegységhez kötött állítást itt nem ad.",
+      "proposed_value": "vályog / vályogtégla: agyagból, szálas adalékból és vízből készült építőanyag/tégla",
+      "confidence": "medium",
+      "needs_review": true,
+      "status": "background_concept_only"
+    },
+    {
+      "id": "extract-mednyanszky-vert-fal-general-001",
+      "source_id": "mednyanszky-magyar-nepi-epiteszeti-kisszotar-20191217",
+      "region_candidates": [],
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "wall_material"
+      ],
+      "source_locator": {
+        "pdf_page_label": "38",
+        "text_lines": [
+          1549,
+          1550
+        ]
+      },
+      "quote": "vert fal zsaluzat (kaloda) közé öntött és tömőfával, kézi döngölővel tömörített falazat. Rétegesen készül, építéséhez helyi anyagot használnak.",
+      "paraphrase": "A vert fal zsaluzat között tömörített, rétegesen készülő falazat; ebben az idézetben nincs konkrét tájegységkötés.",
+      "proposed_value": "vert fal: zsaluzat között tömörített falazat",
+      "confidence": "medium",
+      "needs_review": true,
+      "status": "background_concept_only"
+    },
+    {
+      "id": "extract-mednyanszky-nad-tetofedes-general-001",
+      "source_id": "mednyanszky-magyar-nepi-epiteszeti-kisszotar-20191217",
+      "region_candidates": [],
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "roof_form"
+      ],
+      "source_locator": {
+        "pdf_page_label": "26",
+        "text_lines": [
+          1043,
+          1047
+        ]
+      },
+      "quote": "nád a pázsitfüvek családjába tartozó növény. A népi építészetben tetőfedésre és vakolattartó szövetként (nádpallóként) alkalmazták.",
+      "paraphrase": "A nád tetőfedő anyagként szerepel, de nincs konkrét pilot-tájegységhez kötve.",
+      "proposed_value": "nád: tetőfedő anyag",
+      "confidence": "medium",
+      "needs_review": true,
+      "status": "background_concept_only"
+    },
+    {
+      "id": "extract-mednyanszky-zsup-tetofedes-general-001",
+      "source_id": "mednyanszky-magyar-nepi-epiteszeti-kisszotar-20191217",
+      "region_candidates": [],
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "roof_form"
+      ],
+      "source_locator": {
+        "pdf_page_label": "39",
+        "text_lines": [
+          1590,
+          1593
+        ]
+      },
+      "quote": "zsup a levágott és megszárított növényi szár. A korábbi évszázadokban olcsóssága és mindenhol beszerezhetősége miatt kedvelt és elterjedt tetőfedő anyag volt. Igen tűzveszélyes, ma már nem alkalmazzák csak a népi építészeti emlékek felújítása során",
+      "paraphrase": "A zsup korábban elterjedt tetőfedő anyag volt; ebben az idézetben nincs konkrét pilot-tájegységhez kötve.",
+      "proposed_value": "zsup: történeti tetőfedő anyag",
+      "confidence": "medium",
+      "needs_review": true,
+      "status": "background_concept_only"
+    }
+  ]
+}

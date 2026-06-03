@@ -1,0 +1,24 @@
+{
+  "schema_version": "0.1.0",
+  "review_items": [
+    {
+      "id": "review-palocfold-morfal-001",
+      "question": "Elfogadjuk-e atlasz-adatként, hogy Palócföld architecture/wall_material mezőjébe bekerül: 'mórfal: vályogtéglából rakott fal'?",
+      "evidence_extraction_id": "extract-mednyanszky-palocfold-morfal-001",
+      "recommended_decision": "approve_as_pending_verified_if_source_ok",
+      "notes": [
+        "A forrás explicit módon Palócföldöt említi.",
+        "Érdemes később másik forrással is megerősíteni, mert kisszótár-definíció, nem regionális monográfia."
+      ]
+    },
+    {
+      "id": "review-background-concepts-001",
+      "question": "A tájegység nélküli fogalmakat tartsuk-e külön háttérfogalomként, és ne jelenítsük meg régiós atlasz-adatként?",
+      "evidence_extraction_id": null,
+      "recommended_decision": "keep_as_background_concepts_only",
+      "notes": [
+        "Paticsfal, rakott sárfal, vályog, vert fal, nád, zsup: hasznos fogalmak, de ebből a forrásból nem köthetők Palócföld/Sárköz/Kalotaszeg egyikéhez sem, kivéve a mórfal-Palócföld adatot."
+      ]
+    }
+  ]
+}
