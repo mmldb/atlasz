@@ -16,6 +16,21 @@
         "Első pilot: architecture layer, főleg falazat és tetőfedés fogalmak.",
         "A forrás kisszótár jellegű: általános definíciók és néhány táji terminus; atlasz-adatként csak tájegységhez kötött vagy óvatosan általános háttérfogalomként használható."
       ]
+    },
+    {
+      "id": "kapros-nograd-megye-nepmuveszete-2000",
+      "author": "Kapros Márta szerk.",
+      "title": "Nógrád Megye Népművészete",
+      "type": "online_digitized_book",
+      "publication_place": "Balassagyarmat",
+      "publication_year": 2000,
+      "url": "https://library.hungaricana.hu/hu/view/MEGY_NOGR_Sk_03/?pg=134&layout=s",
+      "provider": "Hungaricana / Dornyay Béla Múzeum",
+      "status": "official_source_candidate",
+      "notes": [
+        "A linkelt oldal rejtett OCR/szövegblokkjából kinyert részlet.",
+        "A konkrét oldal fejezete: VISELET - Parasztviselet, Flórián Mária."
+      ]
     }
   ]
 }

@@ -170,6 +170,59 @@
       "confidence": "medium",
       "needs_review": true,
       "status": "background_concept_only"
+    },
+    {
+      "id": "extract-kapros-nograd-viselet-page134-001",
+      "source_id": "kapros-nograd-megye-nepmuveszete-2000",
+      "region_candidates": [
+        "palocfold"
+      ],
+      "locality_candidates": [
+        "Őrhalom",
+        "Nógrád megye"
+      ],
+      "region_specificity": "possible_region",
+      "layer_candidates": [
+        "costume_female"
+      ],
+      "field_candidates": [
+        "colors",
+        "materials"
+      ],
+      "schema_gap_candidates": [
+        "female_garments",
+        "winter_outerwear",
+        "dowry_textiles"
+      ],
+      "source_locator": {
+        "hungaricana_pg": 134,
+        "section": "VISELET - Parasztviselet Flórián Mária"
+      },
+      "quote": "A fehér falú, nyakán és ujja végén fekete vagy vörös irhával szegett asszonyködmön és ennek ujjatlan párja, a ködmönpruszlik - amit Nógrádban cucajként emlegettek - azonban még ekkor is fontos, előkelő tartozéka volt sok nógrádi asszony ruhatárának [...] 140. Pendel Őrhalom, 19-20. század fordulója. Kendervászon, eresztékes pendely. Derekán visszahajtott gallér, benne madzag.",
+      "paraphrase": "A Nógrád megyei női viseletben fontos ünnepi/téli felsőruhaként szerepel az asszonyködmön és ujjatlan párja, a ködmönpruszlik/cucaj; színezésként fehér fal, fekete vagy vörös irhaszegés; anyagként kendervászon, irha, vászon, szűrposztó/gyapjú említődik. Őrhalomról 19-20. század fordulós kendervászon pendely szerepel.",
+      "proposed_value": {
+        "colors": [
+          "fehér",
+          "fekete",
+          "vörös"
+        ],
+        "materials": [
+          "gyüret vászon",
+          "szűrposztó",
+          "gyapjú",
+          "irha",
+          "kendervászon"
+        ],
+        "garments": [
+          "asszonyködmön",
+          "ködmönpruszlik",
+          "cucaj",
+          "pendely"
+        ]
+      },
+      "confidence": "medium",
+      "needs_review": true,
+      "status": "draft"
     }
   ]
 }

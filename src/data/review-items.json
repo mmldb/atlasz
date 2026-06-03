@@ -19,6 +19,16 @@
       "notes": [
         "Paticsfal, rakott sárfal, vályog, vert fal, nád, zsup: hasznos fogalmak, de ebből a forrásból nem köthetők Palócföld/Sárköz/Kalotaszeg egyikéhez sem, kivéve a mórfal-Palócföld adatot."
       ]
+    },
+    {
+      "id": "review-nograd-viselet-schema-gap-001",
+      "question": "A Nógrád megyei női viseletadatokat Palócföldhöz kössük-e a pilotban, vagy vegyünk fel külön Nógrád/településszintű alrégiót? Emellett bővítsük-e a costume_female layert garment mezőkkel, mert a forrás ruhadarabokat ad meg, nem csak színeket/anyagokat/fejdíszt/szoknyahosszt?",
+      "evidence_extraction_id": "extract-kapros-nograd-viselet-page134-001",
+      "recommended_decision": "add_schema_fields_and_keep_pending_region_review",
+      "notes": [
+        "A forrás explicit: Nógrád, Őrhalom; Palócföld kapcsolat valószínű, de atlasz-adatként review kell.",
+        "Javasolt új mezők: garments, outerwear, local_terms, time_period, locality."
+      ]
     }
   ]
 }
