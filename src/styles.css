@@ -35,4 +35,33 @@ blockquote { margin: 10px 0; padding: 10px 12px; border-left: 3px solid #38bdf8;
 .review-item p { color: #cbd5e1; }
 .review-item span { color: #86efac; font-size: 12px; }
 .empty-state { padding: 16px; background: rgba(148, 163, 184, 0.12); border-radius: 12px; color: #cbd5e1; }
-@media (max-width: 900px) { .app-shell { grid-template-columns: 1fr; } .atlas-map { height: 62vh; } .map-section { min-height: auto; } }
+@media (max-width: 900px) {
+  html, body, #root { height: auto; min-height: 100%; }
+  .app-shell {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 100dvh;
+    overflow: visible;
+  }
+  .map-section {
+    order: -1;
+    width: 100%;
+    min-height: 340px;
+    height: 52dvh;
+  }
+  .atlas-map {
+    height: 100%;
+    min-height: 340px;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    padding: 16px;
+    border-right: 0;
+    border-top: 1px solid rgba(148, 163, 184, 0.2);
+  }
+  .brand-block h1 { font-size: 22px; }
+  .card { padding: 14px; border-radius: 14px; }
+}
