@@ -29,6 +29,51 @@
         "A forrás explicit: Nógrád, Őrhalom; Palócföld kapcsolat valószínű, de atlasz-adatként review kell.",
         "Javasolt új mezők: garments, outerwear, local_terms, time_period, locality."
       ]
+    },
+    {
+      "id": "review-mek-palocfold-rovasos-fal-001",
+      "question": "Elfogadjuk-e Palócföld architecture.wall_structure adatként a zsilipelt fal / rovásos fal megjelölést?",
+      "evidence_extraction_id": "extract-mek-palocfold-rovasos-fal-001",
+      "recommended_decision": "approve_if_source_quote_and_region_scope_ok",
+      "notes": [
+        "MEK / Magyar Néprajz IV. forrásból kinyert, explicit tájegység-említést tartalmazó draft. Atlasz-adatként emberi review után kerüljön át approved státuszba."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-house-layout-001",
+      "question": "Elfogadjuk-e Palócföld architecture.house_layout adatként a ház–pitvar–komra–estálló leírást?",
+      "evidence_extraction_id": "extract-mek-palocfold-house-layout-001",
+      "recommended_decision": "approve_if_source_quote_and_region_scope_ok",
+      "notes": [
+        "MEK / Magyar Néprajz IV. forrásból kinyert, explicit tájegység-említést tartalmazó draft. Atlasz-adatként emberi review után kerüljön át approved státuszba."
+      ]
+    },
+    {
+      "id": "review-mek-sarkoz-nadfal-001",
+      "question": "Elfogadjuk-e Sárköz architecture.wall_structure/material adatként a nádfal/nádház előfordulását?",
+      "evidence_extraction_id": "extract-mek-sarkoz-nadfal-nadhaz-001",
+      "recommended_decision": "approve_if_source_quote_and_region_scope_ok",
+      "notes": [
+        "MEK / Magyar Néprajz IV. forrásból kinyert, explicit tájegység-említést tartalmazó draft. Atlasz-adatként emberi review után kerüljön át approved státuszba."
+      ]
+    },
+    {
+      "id": "review-mek-kalotaszeg-fodeleskapu-001",
+      "question": "Elfogadjuk-e Kalotaszeg architecture.fence_gate/decorative_features adatként a födeleskapu, leveleskapu, utcaajtó és díszítési technikák adatait?",
+      "evidence_extraction_id": "extract-mek-kalotaszeg-fodeleskapu-001",
+      "recommended_decision": "approve_if_source_quote_and_region_scope_ok",
+      "notes": [
+        "MEK / Magyar Néprajz IV. forrásból kinyert, explicit tájegység-említést tartalmazó draft. Atlasz-adatként emberi review után kerüljön át approved státuszba."
+      ]
+    },
+    {
+      "id": "review-mek-kalotaszeg-boronafal-001",
+      "question": "Elfogadjuk-e Kalotaszeg architecture.wall_structure adatként a keresztfejes/talpas-vázas boronafal adatot?",
+      "evidence_extraction_id": "extract-mek-kalotaszeg-boronafal-001",
+      "recommended_decision": "approve_if_source_quote_and_region_scope_ok",
+      "notes": [
+        "MEK / Magyar Néprajz IV. forrásból kinyert, explicit tájegység-említést tartalmazó draft. Atlasz-adatként emberi review után kerüljön át approved státuszba."
+      ]
     }
   ]
 }

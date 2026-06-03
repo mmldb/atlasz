@@ -223,6 +223,166 @@
       "confidence": "medium",
       "needs_review": true,
       "status": "draft"
+    },
+    {
+      "id": "extract-mek-palocfold-rovasos-fal-001",
+      "source_id": "magyar-neprajz-iv-anyagi-kultura-epiteszet-mek",
+      "region_candidates": [
+        "palocfold"
+      ],
+      "region_specificity": "explicit_region",
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "wall_structure",
+        "local_terms"
+      ],
+      "source_locator": {
+        "url": "https://mek.oszk.hu/02100/02152/html/04/45.html",
+        "section": "ÉPÍTŐANYAGOK ÉS SZERKEZETEK / Falazatok"
+      },
+      "quote": "Ezt a technológiát – nagyon találóan, a szerkezet lényegére utalva – a Dél-Dunántúlon zsilipelt falnak, a Palócföldön, Zemplénben és Gömörben rovásos falnak nevezik. Elterjedési területe a Palócföld, Erdély, a Dunántúl délnyugati vidéke: Zala és Somogy megye.",
+      "paraphrase": "A zsilipelt faltechnika Palócföldön rovásos fal néven szerepel, és a szöveg Palócföldet az elterjedési területek között említi.",
+      "proposed_value": {
+        "wall_structure": "zsilipelt fal / rovásos fal",
+        "local_terms": [
+          "rovásos fal"
+        ]
+      },
+      "confidence": "high",
+      "needs_review": true,
+      "status": "candidate_for_atlas"
+    },
+    {
+      "id": "extract-mek-palocfold-house-layout-001",
+      "source_id": "magyar-neprajz-iv-anyagi-kultura-epiteszet-mek",
+      "region_candidates": [
+        "palocfold"
+      ],
+      "region_specificity": "explicit_region",
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "house_layout",
+        "local_terms"
+      ],
+      "source_locator": {
+        "url": "https://mek.oszk.hu/02100/02152/html/04/83.html",
+        "section": "AZ ÉPÍTMÉNYEK FAJTÁI / Helyiségek"
+      },
+      "quote": "A palóc család otthonáról a 20. század eleji leírások úgy emlékeznek meg, hogy azok házból, pitvarból, komrából és estállóból állnak (Pápai K. 1893: 18–29; Pintér S. 1909: 201–204).",
+      "paraphrase": "A 20. század eleji leírások szerint a palóc családi otthon helyiségei: ház, pitvar, komra és istálló/estálló.",
+      "proposed_value": {
+        "house_layout": [
+          "ház",
+          "pitvar",
+          "komra",
+          "estálló"
+        ],
+        "time_period": "20. század eleji leírások"
+      },
+      "confidence": "high",
+      "needs_review": true,
+      "status": "candidate_for_atlas"
+    },
+    {
+      "id": "extract-mek-sarkoz-nadfal-nadhaz-001",
+      "source_id": "magyar-neprajz-iv-anyagi-kultura-epiteszet-mek",
+      "region_candidates": [
+        "sarkoz"
+      ],
+      "region_specificity": "explicit_region",
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "wall_material",
+        "wall_structure"
+      ],
+      "source_locator": {
+        "url": "https://mek.oszk.hu/02100/02152/html/04/45.html",
+        "section": "ÉPÍTŐANYAGOK ÉS SZERKEZETEK / Nádfal"
+      },
+      "quote": "A századfordulón már csak a Tisza menti területeken, az Ecsedi-lápon, Sárréten, Hortobágy vidékén, Nagykunságban, a Berettyó mentén, a Sárközben, a Drávaszögben és a Fertő mentén ismerték és használták (MNA 224. térkép).",
+      "paraphrase": "A nádfal/nádház használatának századfordulós előfordulási területei között a szöveg Sárközt is felsorolja.",
+      "proposed_value": {
+        "wall_material": "nád",
+        "wall_structure": "nádfal / nádház",
+        "time_period": "századforduló"
+      },
+      "confidence": "medium",
+      "needs_review": true,
+      "status": "candidate_for_atlas"
+    },
+    {
+      "id": "extract-mek-kalotaszeg-fodeleskapu-001",
+      "source_id": "magyar-neprajz-iv-anyagi-kultura-epiteszet-mek",
+      "region_candidates": [
+        "kalotaszeg"
+      ],
+      "region_specificity": "explicit_region",
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "fence_gate",
+        "decorative_features",
+        "local_terms"
+      ],
+      "source_locator": {
+        "url": "https://mek.oszk.hu/02100/02152/html/04/149.html",
+        "section": "A NÉPI ÉPÍTÉSZET ESZTÉTIKÁJA, FORMA ÉS DÍSZÍTÉS"
+      },
+      "quote": "A székely kapunak megfelelő portabejáró Kalotaszegen a födeleskapu, részei pedig a leveleskapu és az utcaajtó. Díszített ugyan az egész kapuzat, de különösen az utóbbi rész [...] Díszítésének, hímzésének technikája karcolás, vésés, domborítás és színes festés.",
+      "paraphrase": "Kalotaszegen a portabejáró födeleskapu; részei a leveleskapu és az utcaajtó. A kapuzat díszített, technikái: karcolás, vésés, domborítás, színes festés.",
+      "proposed_value": {
+        "fence_gate": "födeleskapu",
+        "gate_parts": [
+          "leveleskapu",
+          "utcaajtó"
+        ],
+        "decorative_techniques": [
+          "karcolás",
+          "vésés",
+          "domborítás",
+          "színes festés"
+        ]
+      },
+      "confidence": "high",
+      "needs_review": true,
+      "status": "candidate_for_atlas"
+    },
+    {
+      "id": "extract-mek-kalotaszeg-boronafal-001",
+      "source_id": "magyar-neprajz-iv-anyagi-kultura-epiteszet-mek",
+      "region_candidates": [
+        "kalotaszeg"
+      ],
+      "region_specificity": "explicit_region",
+      "layer_candidates": [
+        "architecture"
+      ],
+      "field_candidates": [
+        "wall_structure"
+      ],
+      "source_locator": {
+        "url": "https://mek.oszk.hu/02100/02152/html/04/156.html",
+        "section": "A MAGYAR NÉPI ÉPÍTÉSZET TÁJI TAGOLÓDÁSA A 18–20. SZÁZADBAN"
+      },
+      "quote": "Kalotaszegen például a 20. század elején még az öregebb épületek – köztük olyanok, melyek esetleg a 18. században épültek – keresztfejes boronafalúak voltak (Bátky Zs. 1907: 54–56). A 20. század elején itt már talpas-vázas, boronafalú épületeket építettek, s csak ritkán fordul elő a patics ház...",
+      "paraphrase": "Kalotaszegen a 20. század elején az öregebb épületek keresztfejes boronafalúak voltak; ugyanebben az időszakban talpas-vázas, boronafalú épületeket is építettek.",
+      "proposed_value": {
+        "wall_structure": [
+          "keresztfejes boronafal",
+          "talpas-vázas boronafal"
+        ],
+        "time_period": "20. század eleje; öregebb épületek esetében akár 18. századi eredet"
+      },
+      "confidence": "high",
+      "needs_review": true,
+      "status": "candidate_for_atlas"
     }
   ]
 }

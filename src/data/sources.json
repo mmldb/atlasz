@@ -31,6 +31,20 @@
         "A linkelt oldal rejtett OCR/szövegblokkjából kinyert részlet.",
         "A konkrét oldal fejezete: VISELET - Parasztviselet, Flórián Mária."
       ]
+    },
+    {
+      "id": "magyar-neprajz-iv-anyagi-kultura-epiteszet-mek",
+      "author": "Balassa M. Iván, Dám László, Zentai Tünde és mások",
+      "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+      "type": "online_monograph",
+      "publication_year": null,
+      "url": "https://mek.oszk.hu/02100/02152/html/04/40.html",
+      "provider": "Magyar Elektronikus Könyvtár / OSZK",
+      "status": "official_source_candidate",
+      "notes": [
+        "A linkelt oldal az Építészet fejezet tartalom/navigációs oldala; az extractionök konkrét alfejezet-URL-ekre mutatnak.",
+        "Pilot fókusz: Palócföld, Sárköz, Kalotaszeg architecture layer; minden regionális állítás review státuszban marad."
+      ]
     }
   ]
 }
