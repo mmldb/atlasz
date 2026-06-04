@@ -203,9 +203,13 @@ export default function ReviewPanel({ region, activeLayer, extractions, extracti
     if (activeLayer !== 'architecture') return []
     return [
       ['wall_material', 'Falazat'],
+      ['wall_structure', 'Falszerkezet'],
       ['roof_form', 'Tetőforma / tetőfedés'],
+      ['house_layout', 'Ház / alaprajz / helyiségek'],
       ['fence_type', 'Kerítés'],
+      ['fence_gate', 'Kapu / portabejáró'],
       ['characteristic_decoration', 'Jellegzetes díszítés'],
+      ['local_terms', 'Helyi terminusok'],
     ]
   }, [activeLayer])
 

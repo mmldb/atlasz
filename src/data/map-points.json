@@ -1,0 +1,494 @@
+{
+  "schema_version": "0.1.0",
+  "description": "Térképre helyezett, review-zandó forráspontok. A region_centroid_offset_for_display koordináták vizuális széthúzást jelentenek, nem precíz terepi lokációt.",
+  "map_points": [
+    {
+      "id": "point-mek-palocfold-rovasos-fal-001",
+      "point_type": "source_claim",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "wall_structure",
+        "local_terms"
+      ],
+      "label": "falazat / szerkezet — Palócföld",
+      "coordinates": {
+        "lat": 47.95,
+        "lng": 19.75,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-rovasos-fal-001",
+      "verification_status": "candidate_for_atlas",
+      "display_priority": 10
+    },
+    {
+      "id": "point-mek-palocfold-house-layout-001",
+      "point_type": "source_claim",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "house_layout",
+        "local_terms"
+      ],
+      "label": "ház / alaprajz / helyiségek — Palócföld",
+      "coordinates": {
+        "lat": 47.95,
+        "lng": 19.85,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-house-layout-001",
+      "verification_status": "approved",
+      "display_priority": 10
+    },
+    {
+      "id": "point-mek-sarkoz-nadfal-nadhaz-001",
+      "point_type": "source_claim",
+      "region_id": "sarkoz",
+      "layer": "architecture",
+      "field_candidates": [
+        "wall_material",
+        "wall_structure"
+      ],
+      "label": "falazat / szerkezet — Sárköz",
+      "coordinates": {
+        "lat": 46.25,
+        "lng": 18.75,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-sarkoz-nadfal-nadhaz-001",
+      "verification_status": "candidate_for_atlas",
+      "display_priority": 10
+    },
+    {
+      "id": "point-mek-kalotaszeg-fodeleskapu-001",
+      "point_type": "source_claim",
+      "region_id": "kalotaszeg",
+      "layer": "architecture",
+      "field_candidates": [
+        "fence_gate",
+        "decorative_features",
+        "local_terms"
+      ],
+      "label": "kapu / kerítés / porta — Kalotaszeg",
+      "coordinates": {
+        "lat": 46.75,
+        "lng": 23.05,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-kalotaszeg-fodeleskapu-001",
+      "verification_status": "candidate_for_atlas",
+      "display_priority": 10
+    },
+    {
+      "id": "point-mek-kalotaszeg-boronafal-001",
+      "point_type": "source_claim",
+      "region_id": "kalotaszeg",
+      "layer": "architecture",
+      "field_candidates": [
+        "wall_structure"
+      ],
+      "label": "falazat / szerkezet — Kalotaszeg",
+      "coordinates": {
+        "lat": 46.75,
+        "lng": 23.15,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-kalotaszeg-boronafal-001",
+      "verification_status": "candidate_for_atlas",
+      "display_priority": 10
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-45-001-4516d794",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "wall_material",
+        "wall_structure"
+      ],
+      "label": "falazat / szerkezet — Palócföld",
+      "coordinates": {
+        "lat": 48.05,
+        "lng": 19.61,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-45-001-4516d794",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-45-002-f7dcf337",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "house_layout"
+      ],
+      "label": "ház / alaprajz / helyiségek — Palócföld",
+      "coordinates": {
+        "lat": 48.05,
+        "lng": 19.75,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-45-002-f7dcf337",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-45-003-01bcaa09",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "house_layout"
+      ],
+      "label": "ház / alaprajz / helyiségek — Palócföld",
+      "coordinates": {
+        "lat": 48.05,
+        "lng": 19.89,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-45-003-01bcaa09",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-sarkoz-architecture-source-mention-83-004-d9f77bb7",
+      "point_type": "source_claim_candidate",
+      "region_id": "sarkoz",
+      "layer": "architecture",
+      "field_candidates": [
+        "house_layout"
+      ],
+      "label": "ház / alaprajz / helyiségek — Sárköz",
+      "coordinates": {
+        "lat": 46.25,
+        "lng": 18.85,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-sarkoz-architecture-source-mention-83-004-d9f77bb7",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-83-005-dbd1d36f",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "house_layout"
+      ],
+      "label": "ház / alaprajz / helyiségek — Palócföld",
+      "coordinates": {
+        "lat": 48.15,
+        "lng": 19.65,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-83-005-dbd1d36f",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-83-006-9b9d1e7b",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "house_layout"
+      ],
+      "label": "ház / alaprajz / helyiségek — Palócföld",
+      "coordinates": {
+        "lat": 48.15,
+        "lng": 19.75,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-83-006-9b9d1e7b",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-83-007-c965233c",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "wall_material",
+        "wall_structure",
+        "house_layout"
+      ],
+      "label": "ház / alaprajz / helyiségek — Palócföld",
+      "coordinates": {
+        "lat": 48.15,
+        "lng": 19.85,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-83-007-c965233c",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-kalotaszeg-architecture-source-mention-83-008-86fa496d",
+      "point_type": "source_claim_candidate",
+      "region_id": "kalotaszeg",
+      "layer": "architecture",
+      "field_candidates": [
+        "fence_gate",
+        "decorative_features",
+        "local_terms"
+      ],
+      "label": "kapu / kerítés / porta — Kalotaszeg",
+      "coordinates": {
+        "lat": 46.85,
+        "lng": 22.91,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-83-008-86fa496d",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-kalotaszeg-architecture-source-mention-83-009-0735a187",
+      "point_type": "source_claim_candidate",
+      "region_id": "kalotaszeg",
+      "layer": "architecture",
+      "field_candidates": [
+        "heritage_site"
+      ],
+      "label": "építészeti emlék / tájház — Kalotaszeg",
+      "coordinates": {
+        "lat": 46.85,
+        "lng": 23.05,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-83-009-0735a187",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-83-010-73ab12c3",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "wall_material",
+        "wall_structure"
+      ],
+      "label": "falazat / szerkezet — Palócföld",
+      "coordinates": {
+        "lat": 47.88,
+        "lng": 19.8,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-83-010-73ab12c3",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-kalotaszeg-architecture-source-mention-149-011-d5f53179",
+      "point_type": "source_claim_candidate",
+      "region_id": "kalotaszeg",
+      "layer": "architecture",
+      "field_candidates": [
+        "fence_gate",
+        "decorative_features",
+        "local_terms"
+      ],
+      "label": "kapu / kerítés / porta — Kalotaszeg",
+      "coordinates": {
+        "lat": 46.85,
+        "lng": 23.19,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-149-011-d5f53179",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-kalotaszeg-architecture-source-mention-149-012-03088c1a",
+      "point_type": "source_claim_candidate",
+      "region_id": "kalotaszeg",
+      "layer": "architecture",
+      "field_candidates": [
+        "wall_material",
+        "wall_structure",
+        "house_layout",
+        "roof_form",
+        "decorative_features",
+        "fence_gate",
+        "local_terms",
+        "characteristic_decoration",
+        "heritage_site"
+      ],
+      "label": "ház / alaprajz / helyiségek — Kalotaszeg",
+      "coordinates": {
+        "lat": 46.95,
+        "lng": 22.95,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-149-012-03088c1a",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-149-013-6649a6d5",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "characteristic_decoration",
+        "decorative_features"
+      ],
+      "label": "díszítés / forma — Palócföld",
+      "coordinates": {
+        "lat": 48.22,
+        "lng": 19.7,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-149-013-6649a6d5",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-149-014-ddf27fd9",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "house_layout",
+        "roof_form",
+        "decorative_features",
+        "characteristic_decoration"
+      ],
+      "label": "ház / alaprajz / helyiségek — Palócföld",
+      "coordinates": {
+        "lat": 48.19,
+        "lng": 19.89,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-149-014-ddf27fd9",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-kalotaszeg-architecture-source-mention-149-015-c738fa35",
+      "point_type": "source_claim_candidate",
+      "region_id": "kalotaszeg",
+      "layer": "architecture",
+      "field_candidates": [
+        "wall_material",
+        "wall_structure",
+        "house_layout",
+        "characteristic_decoration",
+        "decorative_features"
+      ],
+      "label": "ház / alaprajz / helyiségek — Kalotaszeg",
+      "coordinates": {
+        "lat": 46.95,
+        "lng": 23.05,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-149-015-c738fa35",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-156-016-e17ffcf3",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "house_layout"
+      ],
+      "label": "ház / alaprajz / helyiségek — Palócföld",
+      "coordinates": {
+        "lat": 47.985,
+        "lng": 19.615,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-156-016-e17ffcf3",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-kalotaszeg-architecture-source-mention-156-017-ad783b28",
+      "point_type": "source_claim_candidate",
+      "region_id": "kalotaszeg",
+      "layer": "architecture",
+      "field_candidates": [
+        "house_layout"
+      ],
+      "label": "ház / alaprajz / helyiségek — Kalotaszeg",
+      "coordinates": {
+        "lat": 46.95,
+        "lng": 23.15,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-156-017-ad783b28",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-181-018-45b21de3",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "heritage_site"
+      ],
+      "label": "építészeti emlék / tájház — Palócföld",
+      "coordinates": {
+        "lat": 47.985,
+        "lng": 19.715,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-181-018-45b21de3",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    },
+    {
+      "id": "point-mek-palocfold-architecture-source-mention-181-019-4ba2322d",
+      "point_type": "source_claim_candidate",
+      "region_id": "palocfold",
+      "layer": "architecture",
+      "field_candidates": [
+        "wall_material",
+        "wall_structure",
+        "house_layout",
+        "heritage_site"
+      ],
+      "label": "ház / alaprajz / helyiségek — Palócföld",
+      "coordinates": {
+        "lat": 47.985,
+        "lng": 19.815,
+        "precision": "region_centroid_offset_for_display",
+        "coordinate_note": "Nem pontos helyszín; a tájegység köré széthúzott review-pont."
+      },
+      "source_extraction_id": "extract-mek-palocfold-architecture-source-mention-181-019-4ba2322d",
+      "verification_status": "candidate_for_map_review",
+      "display_priority": 40
+    }
+  ]
+}

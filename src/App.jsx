@@ -3,6 +3,7 @@ import atlasData from './data/atlas-data.json'
 import sourcesData from './data/sources.json'
 import extractionsData from './data/extractions.json'
 import reviewData from './data/review-items.json'
+import mapPointsData from './data/map-points.json'
 import AtlasMap from './components/AtlasMap.jsx'
 import ReviewPanel from './components/ReviewPanel.jsx'
 import LayerToggle from './components/LayerToggle.jsx'
@@ -52,6 +53,8 @@ export default function App() {
       <section className="map-section">
         <AtlasMap
           regions={atlasData.regions}
+          mapPoints={mapPointsData.map_points}
+          extractionsById={extractionsById}
           selectedRegionId={selectedRegion?.id}
           onSelectRegion={setSelectedRegionId}
         />

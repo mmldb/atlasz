@@ -17,6 +17,7 @@ button { font: inherit; }
 .atlas-map { height: 100vh; width: 100%; background: #dbeafe; }
 .atlas-marker { width: 22px; height: 22px; border-radius: 999px; background: var(--marker-color); border: 3px solid white; box-shadow: 0 0 0 5px color-mix(in srgb, var(--marker-color) 30%, transparent), 0 8px 24px rgba(15,23,42,0.35); }
 .atlas-marker.is-selected { width: 28px; height: 28px; transform: translate(-3px, -3px); box-shadow: 0 0 0 7px color-mix(in srgb, var(--marker-color) 36%, transparent), 0 12px 30px rgba(15,23,42,0.45); }
+.source-point-marker { width: 14px; height: 14px; border-radius: 999px; background: var(--marker-color); border: 2px solid #0f172a; box-shadow: 0 0 0 3px color-mix(in srgb, var(--marker-color) 22%, transparent), 0 6px 16px rgba(15,23,42,0.3); }
 .fields { display: grid; gap: 12px; }
 .field-row { padding: 12px; border-radius: 14px; background: rgba(30, 41, 59, 0.62); border: 1px solid rgba(148, 163, 184, 0.14); }
 .field-header { display: flex; justify-content: space-between; gap: 12px; align-items: center; font-weight: 800; }
@@ -28,6 +29,7 @@ button { font: inherit; }
 .status-needs_more_source { background: rgba(245, 158, 11, 0.18); color: #fcd34d; }
 .status-rejected { background: rgba(239, 68, 68, 0.18); color: #fecaca; }
 .status-candidate_for_atlas { background: rgba(14, 165, 233, 0.18); color: #7dd3fc; }
+.status-candidate_for_map_review { background: rgba(14, 165, 233, 0.18); color: #7dd3fc; }
 .status-draft { background: rgba(168, 85, 247, 0.18); color: #d8b4fe; }
 .status-background_concept_only { background: rgba(148, 163, 184, 0.16); color: #cbd5e1; }
 .source-details { margin-top: 10px; color: #cbd5e1; }

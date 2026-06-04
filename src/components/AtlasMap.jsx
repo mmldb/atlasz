@@ -9,8 +9,11 @@ const FALLBACK_COORDINATES = {
 }
 
 const statusColors = {
+  candidate_for_map_review: '#38bdf8',
+  candidate_for_atlas: '#38bdf8',
   pending_human_review: '#f5a623',
   partial_pending_review: '#f5a623',
+  partial_approved_with_pending_review: '#84cc16',
   unverified_empty_seed: '#94a3b8',
   approved: '#22c55e',
   rejected: '#ef4444',
@@ -37,6 +40,27 @@ function makeIcon(status, selected) {
   })
 }
 
+function makePointIcon(status) {
+  const color = statusColors[status] ?? '#38bdf8'
+  return L.divIcon({
+    className: '',
+    html: `<div class="source-point-marker" style="--marker-color:${color}"></div>`,
+    iconSize: [18, 18],
+    iconAnchor: [9, 9],
+  })
+}
+
+function formatValue(value) {
+  if (Array.isArray(value)) return value.join(' / ')
+  if (value === null || value === undefined || value === '') return 'nincs adat'
+  if (typeof value === 'object') {
+    return Object.entries(value)
+      .map(([key, item]) => `${key}: ${formatValue(item)}`)
+      .join(' | ')
+  }
+  return String(value)
+}
+
 function FlyToSelected({ regions, selectedRegionId }) {
   const map = useMap()
   useEffect(() => {
@@ -46,7 +70,7 @@ function FlyToSelected({ regions, selectedRegionId }) {
   return null
 }
 
-export default function AtlasMap({ regions, selectedRegionId, onSelectRegion }) {
+export default function AtlasMap({ regions, mapPoints = [], extractionsById = {}, selectedRegionId, onSelectRegion }) {
   return (
     <MapContainer center={[47.1, 19.4]} zoom={7} minZoom={5} className="atlas-map">
       <TileLayer
@@ -70,6 +94,34 @@ export default function AtlasMap({ regions, selectedRegionId, onSelectRegion }) 
               Status: {status}
               <br />
               Falazat: {Array.isArray(arch.wall_material?.value) ? arch.wall_material.value.join(' / ') : arch.wall_material?.value ?? 'nincs adat'}
+            </Popup>
+          </Marker>
+        )
+      })}
+      {mapPoints.map((point) => {
+        const extraction = extractionsById[point.source_extraction_id]
+        const position = [point.coordinates.lat, point.coordinates.lng]
+        return (
+          <Marker
+            key={point.id}
+            position={position}
+            icon={makePointIcon(point.verification_status)}
+            eventHandlers={{ click: () => onSelectRegion(point.region_id) }}
+          >
+            <Popup>
+              <strong>{point.label}</strong>
+              <br />
+              Status: {point.verification_status}
+              <br />
+              Pontosság: {point.coordinates.precision}
+              <br />
+              <span>{formatValue(extraction?.proposed_value)}</span>
+              {extraction?.source_locator?.url && (
+                <>
+                  <br />
+                  <a href={extraction.source_locator.url} target="_blank" rel="noreferrer">forrás</a>
+                </>
+              )}
             </Popup>
           </Marker>
         )

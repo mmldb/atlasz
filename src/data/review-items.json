@@ -77,6 +77,177 @@
       "notes": [
         "MEK / Magyar Néprajz IV. forrásból kinyert, explicit tájegység-említést tartalmazó draft. Atlasz-adatként emberi review után kerüljön át approved státuszba."
       ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-45-001-4516d794",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-45-001-4516d794",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-45-002-f7dcf337",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-45-002-f7dcf337",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-45-003-01bcaa09",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-45-003-01bcaa09",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-sarkoz-architecture-source-mention-83-004-d9f77bb7",
+      "question": "Releváns térképes candidate pont legyen-e ez a Sárköz / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-sarkoz-architecture-source-mention-83-004-d9f77bb7",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-83-005-dbd1d36f",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-83-005-dbd1d36f",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-83-006-9b9d1e7b",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-83-006-9b9d1e7b",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-83-007-c965233c",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-83-007-c965233c",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-kalotaszeg-architecture-source-mention-83-008-86fa496d",
+      "question": "Releváns térképes candidate pont legyen-e ez a Kalotaszeg / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-83-008-86fa496d",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-kalotaszeg-architecture-source-mention-83-009-0735a187",
+      "question": "Releváns térképes candidate pont legyen-e ez a Kalotaszeg / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-83-009-0735a187",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-83-010-73ab12c3",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-83-010-73ab12c3",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-kalotaszeg-architecture-source-mention-149-011-d5f53179",
+      "question": "Releváns térképes candidate pont legyen-e ez a Kalotaszeg / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-149-011-d5f53179",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-kalotaszeg-architecture-source-mention-149-012-03088c1a",
+      "question": "Releváns térképes candidate pont legyen-e ez a Kalotaszeg / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-149-012-03088c1a",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-149-013-6649a6d5",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-149-013-6649a6d5",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-149-014-ddf27fd9",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-149-014-ddf27fd9",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-kalotaszeg-architecture-source-mention-149-015-c738fa35",
+      "question": "Releváns térképes candidate pont legyen-e ez a Kalotaszeg / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-149-015-c738fa35",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-156-016-e17ffcf3",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-156-016-e17ffcf3",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-kalotaszeg-architecture-source-mention-156-017-ad783b28",
+      "question": "Releváns térképes candidate pont legyen-e ez a Kalotaszeg / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-kalotaszeg-architecture-source-mention-156-017-ad783b28",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-181-018-45b21de3",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-181-018-45b21de3",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
+    },
+    {
+      "id": "review-mek-palocfold-architecture-source-mention-181-019-4ba2322d",
+      "question": "Releváns térképes candidate pont legyen-e ez a Palócföld / architecture layerhez?",
+      "evidence_extraction_id": "extract-mek-palocfold-architecture-source-mention-181-019-4ba2322d",
+      "recommended_decision": "triage_for_atlas_or_keep_as_context",
+      "notes": [
+        "Automatikus MEK Magyar Néprajz IV. Építészet batchből; nem végleges atlasz-adat, hanem térképes review-pont."
+      ]
     }
   ]
 }
