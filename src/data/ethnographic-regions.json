@@ -1,0 +1,489 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": "0.1.0",
+  "note": "Vázlatos, illusztratív néprajzi régió-overlay. Nem közigazgatási határ és nem végleges tudományos határrajz; az MVP-ben tájékozódást szolgál.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "palocfold",
+        "name": "Palócföld",
+        "status": "draft_region_overlay",
+        "color": "#38bdf8",
+        "confidence": "approximate",
+        "note": "Vázlatos régiófolt Észak-Magyarország / déli Felföld térségében."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7,
+              47.75
+            ],
+            [
+              19.25,
+              47.6
+            ],
+            [
+              20.0,
+              47.72
+            ],
+            [
+              20.75,
+              48.0
+            ],
+            [
+              20.55,
+              48.55
+            ],
+            [
+              19.55,
+              48.75
+            ],
+            [
+              18.75,
+              48.45
+            ],
+            [
+              18.7,
+              47.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sarkoz",
+        "name": "Sárköz",
+        "status": "draft_region_overlay",
+        "color": "#f97316",
+        "confidence": "approximate",
+        "note": "Vázlatos régiófolt Tolna megye Duna menti térségében."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.55,
+              46.15
+            ],
+            [
+              18.9,
+              46.1
+            ],
+            [
+              19.0,
+              46.35
+            ],
+            [
+              18.85,
+              46.55
+            ],
+            [
+              18.55,
+              46.5
+            ],
+            [
+              18.35,
+              46.32
+            ],
+            [
+              18.55,
+              46.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kalotaszeg",
+        "name": "Kalotaszeg",
+        "status": "draft_region_overlay",
+        "color": "#a78bfa",
+        "confidence": "approximate",
+        "note": "Vázlatos régiófolt Kolozsvártól nyugatra / Bánffyhunyad környékén."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.55,
+              46.55
+            ],
+            [
+              23.05,
+              46.45
+            ],
+            [
+              23.55,
+              46.75
+            ],
+            [
+              23.45,
+              47.05
+            ],
+            [
+              22.95,
+              47.15
+            ],
+            [
+              22.55,
+              46.95
+            ],
+            [
+              22.55,
+              46.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "matyofold",
+        "name": "Matyóföld",
+        "status": "draft_region_overlay",
+        "color": "#ec4899",
+        "confidence": "approximate",
+        "note": "Vázlatos régiófolt Mezőkövesd környékén."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.45,
+              47.68
+            ],
+            [
+              20.75,
+              47.65
+            ],
+            [
+              20.9,
+              47.85
+            ],
+            [
+              20.7,
+              48.0
+            ],
+            [
+              20.4,
+              47.92
+            ],
+            [
+              20.45,
+              47.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ormansag",
+        "name": "Ormánság",
+        "status": "draft_region_overlay",
+        "color": "#22c55e",
+        "confidence": "approximate",
+        "note": "Vázlatos régiófolt Baranya déli részén, Dráva mentén."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.45,
+              45.75
+            ],
+            [
+              18.2,
+              45.7
+            ],
+            [
+              18.35,
+              45.95
+            ],
+            [
+              18.0,
+              46.15
+            ],
+            [
+              17.35,
+              46.05
+            ],
+            [
+              17.45,
+              45.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "orseg-gocsej",
+        "name": "Őrség / Göcsej",
+        "status": "draft_region_overlay",
+        "color": "#84cc16",
+        "confidence": "approximate",
+        "note": "Vázlatos nyugat-dunántúli régiófolt."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.05,
+              46.45
+            ],
+            [
+              16.75,
+              46.35
+            ],
+            [
+              17.05,
+              46.8
+            ],
+            [
+              16.65,
+              47.15
+            ],
+            [
+              16.15,
+              47.05
+            ],
+            [
+              16.05,
+              46.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hortobagy-nagykunsag",
+        "name": "Hortobágy / Nagykunság",
+        "status": "draft_region_overlay",
+        "color": "#eab308",
+        "confidence": "approximate",
+        "note": "Vázlatos alföldi régiófolt."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.65,
+              47.05
+            ],
+            [
+              21.55,
+              47.05
+            ],
+            [
+              21.75,
+              47.65
+            ],
+            [
+              21.2,
+              47.95
+            ],
+            [
+              20.55,
+              47.65
+            ],
+            [
+              20.65,
+              47.05
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "szekelyfold",
+        "name": "Székelyföld",
+        "status": "draft_region_overlay",
+        "color": "#06b6d4",
+        "confidence": "approximate",
+        "note": "Vázlatos erdélyi régiófolt."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              24.5,
+              45.65
+            ],
+            [
+              26.2,
+              45.7
+            ],
+            [
+              26.65,
+              46.65
+            ],
+            [
+              25.95,
+              47.15
+            ],
+            [
+              24.65,
+              46.95
+            ],
+            [
+              24.2,
+              46.3
+            ],
+            [
+              24.5,
+              45.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mezoseg",
+        "name": "Mezőség",
+        "status": "draft_region_overlay",
+        "color": "#f59e0b",
+        "confidence": "approximate",
+        "note": "Vázlatos erdélyi régiófolt Kolozsvár és Marosvásárhely között."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              23.6,
+              46.45
+            ],
+            [
+              24.25,
+              46.4
+            ],
+            [
+              24.45,
+              47.05
+            ],
+            [
+              23.85,
+              47.25
+            ],
+            [
+              23.35,
+              46.95
+            ],
+            [
+              23.6,
+              46.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "csallokoz",
+        "name": "Csallóköz",
+        "status": "draft_region_overlay",
+        "color": "#60a5fa",
+        "confidence": "approximate",
+        "note": "Vázlatos régiófolt a Duna és Kis-Duna térségében."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.15,
+              47.75
+            ],
+            [
+              18.05,
+              47.75
+            ],
+            [
+              18.25,
+              48.05
+            ],
+            [
+              17.75,
+              48.25
+            ],
+            [
+              17.15,
+              48.1
+            ],
+            [
+              17.15,
+              47.75
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bodrogkoz",
+        "name": "Bodrogköz",
+        "status": "draft_region_overlay",
+        "color": "#14b8a6",
+        "confidence": "approximate",
+        "note": "Vázlatos régiófolt Bodrog/Tisza közében."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.45,
+              48.25
+            ],
+            [
+              22.05,
+              48.25
+            ],
+            [
+              22.15,
+              48.55
+            ],
+            [
+              21.75,
+              48.8
+            ],
+            [
+              21.35,
+              48.6
+            ],
+            [
+              21.45,
+              48.25
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": "0.1.0",
+  "source_family": "Magyar Néprajz nyolckötetes monográfia / MEK HTML",
+  "note": "Egyszerű MVP-kártyák: érdekes, forráslinkelt néprajzi történetek. Nem végleges lexikon-adatbázis.",
+  "cards": [
+    {
+      "id": "palocfold-house-layout-001",
+      "title": "A palóc ház: ház, pitvar, komra, estálló",
+      "region_id": "palocfold",
+      "region": "Palócföld",
+      "category": "építészet",
+      "summary": "A 20. század eleji leírások szerint a palóc családi otthon helyiségei házból, pitvarból, komrából és estállóból álltak.",
+      "quote": "A palóc család otthonáról a 20. század eleji leírások úgy emlékeznek meg, hogy azok házból, pitvarból, komrából és estállóból állnak...",
+      "coordinates": {
+        "lat": 48.05,
+        "lng": 19.75,
+        "precision": "region"
+      },
+      "source": {
+        "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+        "url": "https://mek.oszk.hu/02100/02152/html/04/83.html"
+      }
+    },
+    {
+      "id": "palocfold-rovasos-fal-001",
+      "title": "Rovásos fal Palócföldön",
+      "region_id": "palocfold",
+      "region": "Palócföld",
+      "category": "építészet",
+      "summary": "A zsilipelt faltechnikát a forrás szerint Palócföldön, Zemplénben és Gömörben rovásos falnak nevezték.",
+      "quote": "...a Dél-Dunántúlon zsilipelt falnak, a Palócföldön, Zemplénben és Gömörben rovásos falnak nevezik.",
+      "coordinates": {
+        "lat": 48.16,
+        "lng": 19.95,
+        "precision": "region"
+      },
+      "source": {
+        "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+        "url": "https://mek.oszk.hu/02100/02152/html/04/45.html"
+      }
+    },
+    {
+      "id": "palocfold-boldoganya-001",
+      "title": "Boldoganya és bálvány a palóc házban",
+      "region_id": "palocfold",
+      "region": "Palócföld",
+      "category": "építészet",
+      "summary": "A palóc lakóházaknál a szobában álló tartóoszlopoknak külön neve is lehetett: az ablak felé eső oszlop a boldoganya, a tűzhely felé eső a bálvány.",
+      "quote": "A palóc lakóházaknál néha két oszlop is állt a szobában, s ilyenkor az ablak felé eső oszlop neve volt a boldoganya, míg a tűzhely felé esőé a bálvány.",
+      "coordinates": {
+        "lat": 48.0,
+        "lng": 19.48,
+        "precision": "region"
+      },
+      "source": {
+        "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+        "url": "https://mek.oszk.hu/02100/02152/html/04/45.html"
+      }
+    },
+    {
+      "id": "palocfold-orom-csipkezes-001",
+      "title": "Csipkézett oromdíszek palóc tájakon",
+      "region_id": "palocfold",
+      "region": "Palócföld",
+      "category": "díszítés",
+      "summary": "A forrás palóc néprajzi tájakon gyakori, barokkos vonalú széldeszka- és léc-csipkézést említ, szív, holdsarló és csillag motívumokkal.",
+      "quote": "Gyakori a széldeszkák és lécek barokkos vonalú csipkézése, főként palóc néprajzi tájakon...",
+      "coordinates": {
+        "lat": 48.28,
+        "lng": 20.22,
+        "precision": "region"
+      },
+      "source": {
+        "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+        "url": "https://mek.oszk.hu/02100/02152/html/04/149.html"
+      }
+    },
+    {
+      "id": "sarkoz-nadfal-001",
+      "title": "Nádfal és nádház Sárközben",
+      "region_id": "sarkoz",
+      "region": "Sárköz",
+      "category": "építészet",
+      "summary": "A századfordulón a nádfal/nádház használatának felsorolt területei között a forrás Sárközt is említi.",
+      "quote": "A századfordulón már csak ... a Sárközben, a Drávaszögben és a Fertő mentén ismerték és használták...",
+      "coordinates": {
+        "lat": 46.34,
+        "lng": 18.76,
+        "precision": "region"
+      },
+      "source": {
+        "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+        "url": "https://mek.oszk.hu/02100/02152/html/04/45.html"
+      }
+    },
+    {
+      "id": "sarkoz-foldbe-asott-haz-001",
+      "title": "Átmeneti földbe ásott házak a Tolna megyei Sárközben",
+      "region_id": "sarkoz",
+      "region": "Sárköz",
+      "category": "életmód",
+      "summary": "A forrás a 20. század közepéről említ olyan sárközi zselléreket, akik beltelket nem kapva ideiglenes, földbe ásott házakat készítettek a határban.",
+      "quote": "...a gazdag Tolna megyei Sárközből is, ahol ... zsellérek ... átmenetileg a határban lévő földjükön készítettek földbe ásott házat maguknak.",
+      "coordinates": {
+        "lat": 46.42,
+        "lng": 18.68,
+        "precision": "region"
+      },
+      "source": {
+        "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+        "url": "https://mek.oszk.hu/02100/02152/html/04/83.html"
+      }
+    },
+    {
+      "id": "kalotaszeg-fodeleskapu-001",
+      "title": "A kalotaszegi födeleskapu",
+      "region_id": "kalotaszeg",
+      "region": "Kalotaszeg",
+      "category": "építészet",
+      "summary": "Kalotaszegen a székely kapunak megfelelő portabejáró a födeleskapu; részei a leveleskapu és az utcaajtó.",
+      "quote": "A székely kapunak megfelelő portabejáró Kalotaszegen a födeleskapu, részei pedig a leveleskapu és az utcaajtó.",
+      "coordinates": {
+        "lat": 46.85,
+        "lng": 23.05,
+        "precision": "region"
+      },
+      "source": {
+        "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+        "url": "https://mek.oszk.hu/02100/02152/html/04/149.html"
+      }
+    },
+    {
+      "id": "kalotaszeg-boronafal-001",
+      "title": "Boronafalú régi épületek Kalotaszegen",
+      "region_id": "kalotaszeg",
+      "region": "Kalotaszeg",
+      "category": "építészet",
+      "summary": "A forrás szerint Kalotaszegen a 20. század elején az öregebb épületek között keresztfejes boronafalú házak is voltak.",
+      "quote": "Kalotaszegen például a 20. század elején még az öregebb épületek ... keresztfejes boronafalúak voltak...",
+      "coordinates": {
+        "lat": 46.94,
+        "lng": 22.88,
+        "precision": "region"
+      },
+      "source": {
+        "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+        "url": "https://mek.oszk.hu/02100/02152/html/04/156.html"
+      }
+    },
+    {
+      "id": "kalotaszeg-ketesd-fusaz-001",
+      "title": "Ketesdi ház és füstház Kalotaszegen",
+      "region_id": "kalotaszeg",
+      "region": "Kalotaszeg",
+      "place": "Ketesd",
+      "category": "építészet",
+      "summary": "A kalotaszegi Ketesden egy 20. század elején kibővített ház 18. századi része nagyméretű házból és külön bejáratú füsázból, vagyis füstházból állt.",
+      "quote": "A kalotaszegi Ketesden egy ... ház 18. századi része nagyméretű házból és egy külön bejáratú, meglehetősen keskeny füsázból (füstház) állt.",
+      "coordinates": {
+        "lat": 46.92,
+        "lng": 23.06,
+        "precision": "settlement_approx"
+      },
+      "source": {
+        "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+        "url": "https://mek.oszk.hu/02100/02152/html/04/156.html"
+      }
+    },
+    {
+      "id": "balassagyarmat-paloc-udvar-001",
+      "title": "Palóc udvar a Palóc Múzeum mellett",
+      "region_id": "palocfold",
+      "region": "Palócföld",
+      "place": "Balassagyarmat",
+      "category": "örökség",
+      "summary": "A forrás szerint a 30-as évek derekán Balassagyarmaton, a Palóc Múzeum mellé palóc udvar építményeit telepítették át.",
+      "quote": "A 30-as évek derekán Balassagyarmaton a Palóc Múzeum mellé egy palóc udvar építményeit telepítették át...",
+      "coordinates": {
+        "lat": 48.075,
+        "lng": 19.296,
+        "precision": "settlement_approx"
+      },
+      "source": {
+        "title": "Magyar Néprajz IV. Anyagi kultúra 3. Életmód / Építészet",
+        "url": "https://mek.oszk.hu/02100/02152/html/04/181.html"
+      }
+    }
+  ]
+}

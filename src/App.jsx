@@ -1,62 +1,78 @@
 import { useMemo, useState } from 'react'
-import atlasData from './data/atlas-data.json'
-import sourcesData from './data/sources.json'
-import extractionsData from './data/extractions.json'
-import reviewData from './data/review-items.json'
-import mapPointsData from './data/map-points.json'
+import storyCardsData from './data/story-cards.json'
+import regionOverlayData from './data/ethnographic-regions.json'
 import AtlasMap from './components/AtlasMap.jsx'
-import ReviewPanel from './components/ReviewPanel.jsx'
-import LayerToggle from './components/LayerToggle.jsx'
+import StoryPanel from './components/StoryPanel.jsx'
 
-const DEFAULT_SELECTED = 'palocfold'
+const DEFAULT_CATEGORY = 'all'
 
 export default function App() {
-  const [selectedRegionId, setSelectedRegionId] = useState(DEFAULT_SELECTED)
-  const [activeLayer, setActiveLayer] = useState('architecture')
+  const [selectedCardId, setSelectedCardId] = useState(storyCardsData.cards[0]?.id)
+  const [activeCategory, setActiveCategory] = useState(DEFAULT_CATEGORY)
 
-  const selectedRegion = useMemo(
-    () => atlasData.regions.find((region) => region.id === selectedRegionId) ?? atlasData.regions[0],
-    [selectedRegionId],
-  )
-
-  const extractionsById = useMemo(() => {
-    return Object.fromEntries(extractionsData.extractions.map((item) => [item.id, item]))
+  const categories = useMemo(() => {
+    return ['all', ...Array.from(new Set(storyCardsData.cards.map((card) => card.category)))]
   }, [])
 
-  const sourcesById = useMemo(() => {
-    return Object.fromEntries(sourcesData.sources.map((item) => [item.id, item]))
-  }, [])
+  const filteredCards = useMemo(() => {
+    if (activeCategory === DEFAULT_CATEGORY) return storyCardsData.cards
+    return storyCardsData.cards.filter((card) => card.category === activeCategory)
+  }, [activeCategory])
+
+  const selectedCard = useMemo(() => {
+    return storyCardsData.cards.find((card) => card.id === selectedCardId) ?? filteredCards[0] ?? storyCardsData.cards[0]
+  }, [filteredCards, selectedCardId])
+
+  function selectCategory(category) {
+    setActiveCategory(category)
+    const first = category === DEFAULT_CATEGORY
+      ? storyCardsData.cards[0]
+      : storyCardsData.cards.find((card) => card.category === category)
+    if (first) setSelectedCardId(first.id)
+  }
 
   return (
-    <main className="app-shell">
-      <aside className="sidebar">
+    <main className="app-shell story-shell">
+      <aside className="sidebar story-sidebar">
         <div className="brand-block">
-          <p className="eyebrow">Pilot MVP</p>
-          <h1>Digitális Kárpát-medencei Néprajzi Atlasz</h1>
+          <p className="eyebrow">MVP · forráslinkelt térkép</p>
+          <h1>Kárpát-medencei Néprajzi Térkép</h1>
           <p className="subtitle">
-            Forrásalapú térképes néprajzi adatbázis. Nincs AI-általánosítás: minden tény forráshoz kötött.
+            Kurált néprajzi érdekességek a Magyar Néprajz MEK-es köteteiből. A régióhatárok egyelőre vázlatos overlayek, nem közigazgatási vagy végleges tudományos határok.
           </p>
         </div>
 
-        <LayerToggle activeLayer={activeLayer} onChange={setActiveLayer} />
+        <div className="category-filter card">
+          <p className="eyebrow">Kategóriák</p>
+          <div className="chip-row">
+            {categories.map((category) => (
+              <button
+                key={category}
+                type="button"
+                className={category === activeCategory ? 'chip active' : 'chip'}
+                onClick={() => selectCategory(category)}
+              >
+                {category === 'all' ? 'összes' : category}
+              </button>
+            ))}
+          </div>
+        </div>
 
-        <ReviewPanel
-          region={selectedRegion}
-          activeLayer={activeLayer}
-          extractions={extractionsData.extractions}
-          extractionsById={extractionsById}
-          sourcesById={sourcesById}
-          reviewItems={reviewData.review_items}
+        <StoryPanel
+          cards={filteredCards}
+          selectedCard={selectedCard}
+          onSelectCard={setSelectedCardId}
+          regionNote={regionOverlayData.note}
         />
       </aside>
 
       <section className="map-section">
         <AtlasMap
-          regions={atlasData.regions}
-          mapPoints={mapPointsData.map_points}
-          extractionsById={extractionsById}
-          selectedRegionId={selectedRegion?.id}
-          onSelectRegion={setSelectedRegionId}
+          cards={filteredCards}
+          allCards={storyCardsData.cards}
+          regionOverlay={regionOverlayData}
+          selectedCardId={selectedCard?.id}
+          onSelectCard={setSelectedCardId}
         />
       </section>
     </main>
